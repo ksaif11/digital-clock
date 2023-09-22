@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(110, 161, 144);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 30px;
+    text-decoration:underline;
+}
+.container{
+    border: 5px solid ;
+    background-image:linear-gradient(to right bottom, white,rgb(92, 214, 61));
+    font-size: 35px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocks{
+
+    display: flex;
+    font-size: 5px;
+    justify-content: space-between;
+    
+}
+.Hours{
+    font-size: 55px;
+    margin: 10px;
+    background-color: #5555;
+    border-radius: 50%;
+    padding: 10px;
+}
+.Min{
+    font-size: 55px;
+    margin: 10px;
+   background-color: #5555;
+    border-radius: 50%;
+    padding: 10px;
+}
+.Sec{
+    font-size: 55px;
+    margin: 10px;
+    background-color: #5555;
+    border-radius: 50%;
+    padding: 10px;
+}
+.AM_PM{
+    font-size: 35px;
+    margin-top: 30px;
+    text-decoration: underline;
+   padding-left: 10px;
+    
+
+}
